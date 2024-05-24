@@ -1,0 +1,102 @@
+[
+    {
+        "id": "1",
+        "number": "001",
+        "name": "Ipad 2021",
+        "category": "Tablet",
+        "brand": "Apple",
+        "img": "bd/img/tablet/z1rlgtauy2sreejccbimmt14gvr66fee.webp",
+        "discription": "Новый iPad Pro 2021 от Apple. Этот планшет предлагает великолепный Retina-дисплей с поддержкой ProMotion, мощный процессор M1 для высокой производительности, улучшенные камеры и поддержку Apple Pencil и Magic Keyboard. Он предлагает пользователю максимальную производительность и функциональность.",
+        "price": "$1099"
+    },
+    {
+        "id": "2",
+        "number": "002",
+        "name": "Samsung Galaxy Tab S7+",
+        "category": "Tablet",
+        "brand": "Samsung",
+        "img": "bd/img/tablet/SamsungGalaxyTabS7+.webp",
+        "discription": "Samsung Galaxy Tab S7+ – это мощный планшет с крупным Super AMOLED-дисплеем, поддержкой стилуса S Pen, процессором Snapdragon 865+, мощной батареей и множеством функций для продуктивной работы и развлечений.",
+        "price": "$849"
+    },
+    {
+        "id": "3",
+        "number": "003",
+        "name": "Microsoft Surface Pro 7",
+        "category": "Tablet",
+        "brand": "Microsoft",
+        "img": "bd/img/tablet/surface-pro-6.jpg",
+        "discription": "Microsoft Surface Pro 7 – это универсальный планшет и ноутбук в одном устройстве. Он оснащен процессором Intel Core, высококачественным дисплеем PixelSense, поддержкой стилуса Surface Pen и клавиатурой Type Cover. Этот планшет идеально подходит для работы, учебы и развлечений.",
+        "price": "$799"
+    },
+    {
+        "id": "4",
+        "number": "004",
+        "name": "Huawei MatePad Pro",
+        "category": "Tablet",
+        "brand": "Huawei",
+        "img": "bd/img/tablet/HuaweiMatePadPro.webp",
+        "discription": "Huawei MatePad Pro – это стильный и мощный планшет с качественным дисплеем, процессором Kirin 990, стилусом M-Pencil и поддержкой клавиатуры Smart Magnetic Keyboard. Этот планшет предлагает пользователю удобство и производительность для работы и развлечений.",
+        "price": "$699"
+    },
+    {
+        "id": "5",
+        "number": "005",
+        "name": "Lenovo Tab P11 Pro",
+        "category": "Tablet",
+        "brand": "Lenovo",
+        "img": "bd/img/tablet/Lenovo-tab-p11-plus-pro-1.jpg",
+        "discription": "Lenovo Tab P11 Pro – это элегантный планшет с ярким OLED-дисплеем, процессором Snapdragon 730G, поддержкой стилуса и клавиатуры. Он обеспечивает высокую производительность и качественный звук для работы и развлечений.",
+        "price": "$499"
+    },
+    {
+        "id": "6",
+        "number": "006",
+        "name": "Amazon Fire HD 10",
+        "category": "Tablet",
+        "brand": "Amazon",
+        "img": "bd/img/tablet/amazon_kindle_fire_hd_10_16gb_5.jpg",
+        "discription": "Amazon Fire HD 10 – это доступный и функциональный планшет с дисплеем Full HD, процессором MediaTek, поддержкой Alexa и длительным временем автономной работы. Он идеально подходит для чтения, просмотра видео и интернет-серфинга.",
+        "price": "$149"
+    },
+    {
+        "id": "7",
+        "number": "007",
+        "name": "Google Pixel Slate",
+        "category": "Tablet",
+        "brand": "Google",
+        "img": "bd/img/tablet/e62a04d2a6_50156151_pixel.jpg",
+        "discription": "Google Pixel Slate – это универсальный планшет с Chrome OS, высококачественным дисплеем Molecular, процессором Intel Core и поддержкой Pixelbook Pen. Он предлагает мощные возможности и удобство использования для работы и развлечений.",
+        "price": "$799"
+    },
+    {
+        "id": "8",
+        "number": "008",
+        "name": "Sony Xperia Z4 Tablet",
+        "category": "Tablet",
+        "brand": "Sony",
+        "img": "bd/img/tablet/remont-sony-xperia-z4-tablet.jpg",
+        "discription": "Sony Xperia Z4 Tablet – это стильный и легкий планшет с ярким дисплеем Triluminos, процессором Snapdragon 810 и водонепроницаемым корпусом. Он идеально подходит для работы и развлечений в любых условиях.",
+        "price": "$599"
+    },
+    {
+        "id": "9",
+        "number": "009",
+        "name": "Asus ZenPad 3S 10",
+        "category": "Tablet",
+        "brand": "Asus",
+        "img": "bd/img/tablet/249876.jpg",
+        "discription": "Asus ZenPad 3S 10 – это стильный и мощный планшет с дисплеем IPS, процессором MediaTek, поддержкой стилуса и уникальными аудио-технологиями от Asus. Он предлагает высокую производительность и качественное воспроизведение звука.",
+        "price": "$299"
+    },
+    {
+        "id": "10",
+        "number": "010",
+        "name": "Xiaomi Mi Pad 5",
+        "category": "Tablet",
+        "brand": "Xiaomi",
+        "img": "bd/img/tablet/600x800 (1).webp",
+        "discription": "Xiaomi Mi Pad 5 – это современный планшет с ярким дисплеем, мощным процессором Snapdragon 870 и поддержкой стилуса и клавиатуры. Он обеспечивает высокую производительность и множество функций для работы и развлечений.",
+        "price": "$499"
+    }
+]

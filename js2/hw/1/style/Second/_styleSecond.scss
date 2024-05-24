@@ -1,0 +1,10 @@
+.content {
+  @include displayFlex_ALL_Center;
+  gap: 20px;
+}
+
+.content {
+  &__btn_second {
+    color: black;
+  }
+}

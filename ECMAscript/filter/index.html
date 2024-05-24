@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- <script src="/bd/TabletBase.json"></script> -->
+    <!-- <script src="/bd/PhoneBase.json"></script> -->
+    <link rel="stylesheet" href="/style/style.css" />
+    <!-- <script src="script/script.js" defer></script> -->
+    <script src="/script/bdCheck.js" defer></script>
+    <script src="/script/addProductCard.js" defer></script>
+    <script src="/script/sort.js" defer></script>
+    <script src="/script/filterScript.js" defer></script>
+    <script src="/script/quantitySelect.js" defer></script>
+  </head>
+  <body>
+    <div class="mainPage">
+      <nav class="navigationBar">
+        <!-- <span class="navigationBar__button">1</span>
+        <span class="navigationBar__button">1</span>
+        <span class="navigationBar__button">1</span>
+        <span class="navigationBar__button">1</span> -->
+        <fieldset class="mainPage__bdConent bdConent">
+          <legend class="bdConent__legend">подключение bd</legend>
+          <label for="bdTablet">Планшеты</label>
+          <input
+            class="bdConent__tablet"
+            type="checkbox"
+            name="bdTablet"
+            id="bdTablet" />
+          <label for="bdPhone">Телефоны</label>
+          <input
+            class="bdConent__phone"
+            type="checkbox"
+            name="bdPhone"
+            id="bdPhone" />
+          <button class="bdApply" type="button">
+            <span>применить дазу данных</span>
+          </button>
+        </fieldset>
+      </nav>
+      <div class="frameOne">
+        <div class="frameOne__filterSort filterSort">
+          <div class="filterSort__filter filter">
+            <span class="filter__title">filter</span>
+            <form id="filter__FilterForm" class="filter__form">
+              <label for="searchInput" class="filter__label">Поиск:</label>
+              <input
+                type="text"
+                id="searchInput"
+                class="filter__input"
+                placeholder="Введите слово для поиска" />
+
+              <label for="brandFilter" class="filter__label">Бренд:</label>
+              <select id="brandFilter" class="filter__select">
+                <option value="">Все</option>
+                <option value="Apple">Apple</option>
+                <option value="Samsung">Samsung</option>
+                <option value="Asus">Asus</option>
+                <option value="Microsoft">Microsoft</option>
+                <option value="Huawei">Huawei</option>
+                <option value="Lenovo">Lenovo</option>
+                <option value="Google">Google</option>
+                <option value="Amazon">Amazon</option>
+                <option value="Sony">Sony</option>
+                <option value="Xiaomi">Xiaomi</option>
+                <!-- Добавьте другие бренды по мере необходимости -->
+              </select>
+
+              <label for="categoryFilter" class="filter__label"
+                >Категория:</label
+              >
+              <select id="categoryFilter" class="filter__select">
+                <option value="">Все</option>
+                <option value="Смартфоны">Смартфоны</option>
+                <option value="Планшеты">Планшеты</option>
+                <!-- Добавьте другие категории по мере необходимости -->
+              </select>
+
+              <fieldset id="priceFilter" class="filter__fieldset">
+                <legend class="filter__legend">Цена:</legend>
+                <label class="filter__checkbox-label" for="priceRange0-299">
+                  <input
+                    type="checkbox"
+                    id="priceRange0-299"
+                    name="priceRange"
+                    value="0-299"
+                    class="filter__checkbox" />
+                  $0 - $299
+                </label>
+                <label class="filter__checkbox-label" for="priceRange300-599">
+                  <input
+                    type="checkbox"
+                    id="priceRange300-599"
+                    name="priceRange"
+                    value="300-599"
+                    class="filter__checkbox" />
+                  $300 - $599
+                </label>
+                <label class="filter__checkbox-label" for="priceRange600-999">
+                  <input
+                    type="checkbox"
+                    id="priceRange600-999"
+                    name="priceRange"
+                    value="600-999"
+                    class="filter__checkbox" />
+                  $600 - $999
+                </label>
+                <!-- Добавьте другие диапазоны цен по мере необходимости -->
+              </fieldset>
+
+              <button class="filter__buttonApply">Применить фильтр</button>
+              <button class="filter__buttonReset">сброс</button>
+            </form>
+          </div>
+
+          <div class="filterSort__sort">
+            <span>sort</span>
+            <label for="sortSelect">Сортировка:</label>
+            <select id="sortSelect">
+              <option value="priceAsc">Цена по возрастанию</option>
+              <option value="priceDesc">Цена по убыванию</option>
+              <option value="date" selected="selected">Дата</option>
+              <option value="name">Имя</option>
+            </select>
+          </div>
+          <div class="filterSort__quantitySelect">
+            <span>quantity</span>
+            <label for="quantitySelect">Показать:</label>
+            <select id="quantitySelect">
+              <option value="six" selected="selected">6</option>
+              <option value="twqelve">12</option>
+              <option value="twentyFour">24</option>
+            </select>
+          </div>
+
+          <!-- <div class="filterSort__filterAdmin">
+            <span>filter admin</span>
+          </div> -->
+        </div>
+        <div class="frameOne__catalog catalog">
+          <!-- <div class="catalog__cart--sale cart"></div> -->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

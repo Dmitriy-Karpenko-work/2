@@ -1,0 +1,150 @@
+// html,
+// body {
+//     position: relative;
+//     height: 100%;
+// }
+
+
+
+// .swiper {
+//     width: 100%;
+//     height: 100%;
+// }
+
+// .swiper-slide {
+//     text-align: center;
+//     font-size: 18px;
+//     background: #fff;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+// }
+
+// .swiper-slide img {
+//     display: block;
+//     width: 100%;
+//     height: 100%;
+//     object-fit: cover;
+// }
+
+
+.slider {
+    @include displayFlex_ALL_Center;
+    position: relative;
+    // max-width: 1600px;
+    max-height: 700px;
+    background: #F7F7F7;
+    @include border-stock;
+
+
+    &__bottom {
+        top: 50%;
+        position: absolute;
+        margin-left: -6px;
+        width: 20px;
+        height: 30px;
+        @include displayFlex_ALL_Center;
+    }
+
+    &__bottom:hover {
+        background-color: $MainColorPink;
+        fill: $MainColorPink;
+        border-radius: 5px;
+    }
+
+    .left {
+        left: 100px;
+    }
+
+    .right {
+        right: 100px;
+    }
+
+}
+
+.clothing-info-box {
+    @include displayFlex_ALL_Center;
+    margin-bottom: 100px;
+
+
+
+    .clothing-info {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        @include border-stock;
+
+        margin-top: -100px;
+        padding-top: 64px;
+        padding-bottom: 64px;
+        gap: 12px;
+        background-color: $MainColorWite;
+
+        max-width: 1141px;
+        width: 100%;
+
+        z-index: 1;
+
+        &__name-colection {
+            font-size: 14px;
+            color: $MainColorPink;
+        }
+
+        &__border-img-1 {
+            height: 3px;
+            width: 63px;
+            background-color: $MainColorPink;
+        }
+
+        &__title {
+            font-size: 18px;
+        }
+
+        &__text {
+            max-width: 555px;
+            margin-top: 20px;
+            font-size: 14px;
+            color: $TextColor2;
+
+        }
+
+        &__price {
+            margin-top: 20px;
+            font-size: 24px;
+            color: $MainColorPink;
+        }
+
+        &__border-img-2 {
+            max-width: 650px;
+            width: 100%;
+            height: 1px;
+            background-color: $MainColorPink;
+        }
+
+        .selection-of-parameters {
+            * {
+                @include displayFlex_ALL_Center;
+            }
+
+            @include displayFlex_ALL_Center;
+            gap: 22px;
+
+
+
+            .choice-color {
+                color: $TextColor2;
+            }
+
+            .choice-vector {
+                margin-left: 3px;
+            }
+        }
+    }
+}
+
+.choice-button {
+    @include displayFlex_ALL_Center;
+    gap: 5px;
+}

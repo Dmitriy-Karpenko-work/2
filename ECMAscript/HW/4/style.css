@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.catalog {
+  margin-top: 30px;
+  display: flex;
+  gap: 5px;
+}
+.catalog .cart {
+  gap: 3px;
+  display: flex;
+  width: 300px;
+  background-color: rgb(52, 167, 221);
+  flex-direction: column;
+  align-items: flex-start;
+}/*# sourceMappingURL=style.css.map */

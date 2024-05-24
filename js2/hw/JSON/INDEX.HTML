@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js">
+      defer
+    </script>
+  </head>
+  <body>
+    <div class="product-box">
+        <div class="product">
+            <img class="product__img" src="photo.jpg" alt="photo">&nbsp;продукт из html</img>
+            <div class="product__content">
+                <a class="product__name" href="product.html">название товара</a>
+                <p class="product__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ex.</p>
+                <p class="product__price">55$</p>     
+            </div>   
+        </div>
+
+    </div>
+    </div>
+    <script>
+        
+        // const ProductDataNew =[]
+        // // начиная от первого файла             все json из папки   
+        // for (let index = 0;             index < array.length;       index++) {
+        //     ProductDataNew.appendChild
+            
+        // }
+
+const Productsdata = [{
+            src: 'img.png',
+            alt: 'img obj data',
+            name: 'название из obj data',
+            link: 'product.html',
+            description: 'описание товара из obj data',
+            price: 21000
+        },
+        {
+            src: 'img2.png',
+            alt: 'img obj data new',
+            name: 'название нового товара из obj data',
+            link: 'product2.html',
+            description: 'описание нового товара из obj data',
+            price: 11000
+        }
+    ]
+
+
+        const productBox = document.querySelector('.product-box');
+        Productsdata.forEach(Productdata => {
+            const productEl = document.createElement('div');
+        productEl.classList.add('product')
+
+        const productImg = document.createElement('img');
+        productImg.classList.add('product__img')
+        productImg.setAttribute('alt',Productdata.alt)
+        productImg.src = Productdata.src
+
+
+
+
+        const productContent = document.createElement('div');
+        productContent.classList.add('product__content')
+
+        const productName = document.createElement('a');
+        productName.setAttribute('href',Productdata.link)
+        productName.innerHTML = Productdata.name
+        productName.classList.add('product__name')
+        
+        const productText = document.createElement('p');
+        productText.innerHTML = Productdata.description
+        productText.classList.add('product__text')
+
+
+        const productPrice = document.createElement('p');
+        productPrice.classList.add('product__price')
+        productPrice.innerHTML = Productdata.price
+        
+
+
+        productEl.appendChild(productImg)
+        productEl.appendChild(productContent)
+
+
+        productContent.appendChild(productName)
+        
+        productContent.appendChild(productText)
+        productContent.appendChild(productPrice)
+        
+        productBox.appendChild(productEl)
+            
+        });
+    </script>
+  </body>
+</html>

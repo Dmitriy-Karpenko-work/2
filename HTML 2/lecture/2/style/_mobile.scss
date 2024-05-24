@@ -1,0 +1,28 @@
+@media (max-width:425px) {
+
+    .top-menu {
+        justify-content: space-between;
+        padding-left: 40px;
+        padding-right: 20px;
+
+
+    }
+
+    .user_info {
+        &__user {
+            display: none;
+        }
+
+        &__shopping-cart {
+            display: none;
+        }
+    }
+
+
+
+    .bottom-menu {
+        flex-direction: column-reverse;
+        height: 143px;
+
+    }
+}

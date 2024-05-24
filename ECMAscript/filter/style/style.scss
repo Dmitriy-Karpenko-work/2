@@ -1,0 +1,173 @@
+// вопрос в чем разница между "\" "/"
+// при копировании относительного пути есть ошибка компиляции
+
+// @import "scss\abstract\_all.scss";
+@import "scss/abstract/_all.scss";
+// @import url(scss/abstract/_all.scss);
+
+.filter {
+  @include displayFlex_ALL_Center;
+  flex-direction: column;
+  align-items: flex-start;
+  &__button {
+  }
+  &__checkbox {
+  }
+  &__checkbox-label {
+  }
+  &__fieldset {
+    display: flex;
+    flex-direction: column;
+  }
+  &__form {
+    display: flex;
+    flex-direction: column;
+  }
+  &__input {
+    width: 200px;
+  }
+  &__label {
+  }
+  &__legend {
+  }
+  &__select {
+    width: 200px;
+  }
+  &__title {
+  }
+}
+.filterSort {
+  &__filter {
+    padding: 20px 0 20px 5px;
+    border: 1px solid black;
+  }
+  &__filterAdmin {
+    border: 1px solid black;
+  }
+  &__sort {
+    border: 1px solid black;
+  }
+}
+.frameOne {
+  max-width: 1200px;
+  width: 100%;
+  height: 100%;
+  // height: 100%;
+  background-color: grey;
+
+  &__filterSort {
+    @include displayFlex_ALL_Center;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    gap: 30px;
+  }
+}
+.mainPage {
+  width: 100%;
+  height: 100%;
+  @include displayFlex_ALL_Center;
+  flex-direction: column;
+}
+.navigationBar {
+  @include displayFlex_ALL_Center;
+  width: 100%;
+  background-color: $Mainbackgroungcolor;
+  padding: 20px 0px 20px;
+  gap: 50px;
+  &__button {
+    @include displayFlex_ALL_Center;
+    padding: 5px 3px;
+    color: white;
+    width: 70px;
+    border: white 1px solid;
+  }
+}
+
+//---------------------------------------------------------------------------------------
+
+.catalog {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  justify-items: center;
+  gap: 20px 10px;
+  justify-content: center;
+  border: 1px solid black;
+  padding: 20px 0px 20px 0px;
+  // .item:last-child {
+  //grid-column-start: 1; /* Последний элемент начинается с первой колонки */
+  //grid-column-end: 4; /* Последний элемент заканчивается на четвертой колонке (занимает все три колонки) */
+  //}
+
+  //21:24
+  //или Да, свойство place-self: center; применяется к элементам в контейнере с использованием CSS Grid Layout и центрирует их как по горизонтали, так и по вертикали в их ячейках сетки.
+
+  &__title {
+    font-size: 36px;
+  }
+  .cart {
+    display: flex;
+    max-width: 360px;
+    border: 1px solid rgb(66, 139, 54);
+    flex-direction: column;
+
+    &__image {
+      max-width: 340px;
+      max-height: 340px;
+      width: 100%;
+      height: 100%;
+      padding: 5px;
+
+      object-fit: contain;
+    }
+    &__info {
+    }
+    .info {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      position: relative;
+      &__name {
+      }
+      &__price {
+      }
+      &__text {
+      }
+      &__brand {
+      }
+      &__category {
+      }
+      &__number {
+        position: absolute;
+        top: -50px;
+        background-color: red;
+      }
+      &__id {
+        top: -80px;
+        position: absolute;
+        background-color: red;
+      }
+    }
+
+    &--sale {
+    }
+  }
+}
+
+//-------------------------------------------------------------
+.bdConent {
+  * {
+    color: $TextColor3;
+  }
+  &__legend {
+  }
+  button {
+    * {
+      color: black;
+    }
+  }
+}
+.mainPage {
+  &__bdConent {
+  }
+}

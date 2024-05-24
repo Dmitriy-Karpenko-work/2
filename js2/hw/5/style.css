@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapperFact {
+  text-align: start;
+  width: 300px;
+  min-height: 300px;
+  border: 1px solid red;
+}
+.wrapperFact__h1 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 24px;
+}
+.wrapperFact__text {
+  margin-top: 25px;
+  color: black;
+  display: inline-block;
+  line-height: 18px;
+}
+.wrapperFact__text::first-letter {
+  color: red;
+  font-size: 36px;
+}
+.wrapperFact__ps {
+  margin-top: 20px;
+  display: flex;
+  background-color: yellow;
+}/*# sourceMappingURL=style.css.map */

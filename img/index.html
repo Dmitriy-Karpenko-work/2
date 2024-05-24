@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page">
+      <!-- <div class="box1">
+         <div class="block-img"><img src="200x200.jpg" alt=""></div>
+        </div>
+      <div class="box2">
+        <div class="block-img"><img src="200x200.jpg" alt=""></div>
+      </div>
+      <div class="box3">
+        <div class="block-img"><img src="200x200.jpg" alt=""></div>
+      </div> -->
+      <style>
+        .container {
+          position: relative;
+          width: 100%; /* ширина контейнера занимает всю доступную ширину */
+          max-width: 600px; /* максимальная ширина контейнера */
+          height: 300px; /* высота контейнера */
+          margin: 0 auto; /* выравнивание по центру */
+          border: 1px solid #000; /* граница для наглядности */
+          overflow: hidden; /* скрываем выходящие за границы контейнера части изображения */
+        }
+      
+        .image {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%; /* ширина картинки занимает всю ширину контейнера */
+          height: 100%; /* высота картинки занимает всю высоту контейнера */
+          object-fit: cover; /* изображение заполняет контейнер, сохраняя пропорции */
+        }
+      </style>
+      </head>
+      <body>
+      
+      <div class="container">
+        <img src="200x200.jpg" alt="Ваше изображение" class="image">
+      </div>
+    </div>
+  </body>
+</html>

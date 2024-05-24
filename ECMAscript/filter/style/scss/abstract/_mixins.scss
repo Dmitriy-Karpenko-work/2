@@ -1,0 +1,10 @@
+@mixin displayFlex_ALL_Center {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+

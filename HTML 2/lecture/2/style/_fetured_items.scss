@@ -1,0 +1,149 @@
+.fetured_items {
+    @include displayFlex_ALL_Center;
+    flex-direction: column;
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    &__title {
+        color: $TextColor1;
+
+        font-family: Lato;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 36px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    &__text {
+        margin-top: 6px;
+        color: $TextColor2;
+
+        font-family: Lato;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    &__product_carts {
+        margin-top: 71px;
+        margin-bottom: 48px;
+        @include displayFlex_ALL_Center;
+        max-width: 1160px;
+        gap: 20px;
+        flex-wrap: wrap;
+
+        &__product_cart {
+            @include displayFlex_ALL_Center;
+            flex-direction: column;
+            max-width: 360px;
+            max-height: 582px;
+            background-color: rgb(248, 248, 248);
+
+            box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+
+            .product_cart__img {
+                position: relative;
+                width: 360px;
+                height: 420px;
+                // background-color: pink;
+
+                .add_to_cart {
+
+                    @include displayFlex_ALL_Center;
+
+                    position: absolute;
+                    display: none;
+                    top: 45%;
+                    left: 30%;
+                    border: 1px solid $MainColorPink;
+                    padding: 5px 10px 5px 10px;
+                    gap: 10px;
+
+
+
+
+                    &__img {
+                        filter: none;
+                        width: 30px;
+                        height: 30px;
+                    }
+
+                    &__text {
+                        @include nocelect;
+                        color: $TextColor3;
+                    }
+                }
+
+                .add_to_cart:hover {
+                    backdrop-filter: blur(10px);
+                    transition-duration: 500ms;
+                    border-radius: 5px;
+
+                }
+            }
+
+            .product_cart__img img {
+                height: 100%;
+                width: 100%;
+
+            }
+
+            .product_cart__text {
+                @include displayFlex_ALL_Center;
+                align-items: flex-start;
+                flex-direction: column;
+                padding: 20px 10px 20px 10px;
+                gap: 15px;
+
+                .title {
+                    color: $TextColor1;
+                }
+
+                .text {
+                    color: $TextColor2;
+                }
+
+                .price {
+                    color: $MainColorPink;
+                }
+            }
+
+
+        }
+
+        &__product_cart:hover {
+
+            img {
+                filter: brightness(0.5);
+                transition-duration: 500ms;
+            }
+
+            .add_to_cart {
+                display: flex;
+
+            }
+
+
+        }
+    }
+
+    &__button {
+        color: $MainColorPink;
+        padding: 15px 30px 15px 30px;
+        border: 1px solid $MainColorPink;
+        @include nocelect;
+        pointer-events: all;
+    }
+
+    &__button:hover {
+        background-color: $MainColorPink;
+        color: $TextColor3;
+        transition-duration: 500ms;
+    }
+}

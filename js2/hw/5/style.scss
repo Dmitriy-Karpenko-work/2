@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapperFact {
+  text-align: start;
+  width: 300px;
+  min-height: 300px;
+
+  border: 1px solid red;
+  &__h1 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 24px;
+  }
+  &__text {
+    margin-top: 25px;
+    color: black;
+    display: inline-block;
+    line-height: 18px;
+    &::first-letter {
+      color: red;
+      font-size: 36px;
+    }
+  }
+  &__ps {
+    margin-top: 20px;
+    display: flex;
+    background-color: yellow;
+  }
+}

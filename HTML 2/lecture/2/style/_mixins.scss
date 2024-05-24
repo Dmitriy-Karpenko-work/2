@@ -1,0 +1,28 @@
+@mixin displayFlex_ALL_Center {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+@mixin nocelect {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    pointer-events: none;
+}
+
+@mixin font-Lato {
+    // font-family: 'Times New Roman';
+    font-family: Lato;
+
+}
+
+@mixin border-stock {
+    border: 1px solid #EAEAEA
+}

@@ -1,0 +1,117 @@
+@media (min-width:426px) and (max-width:769px) {
+
+    .top-menu {
+        justify-content: space-between;
+        padding-left: 40px;
+        padding-right: 20px;
+
+    }
+
+    .big-logo-index {
+        margin-left: 0px;
+
+        .right-name {
+            .block-name-and-figure {
+                margin-left: -50px;
+
+                .name-shop {
+                    .up-name {
+                        font-size: 37px;
+                    }
+
+                    .down-name {
+                        font-size: 30px;
+                    }
+                }
+
+
+
+
+            }
+        }
+    }
+
+    .category {
+        margin-top: 18px;
+    }
+
+    .slider {
+        .left {
+            left: 25px;
+        }
+
+        .right {
+            right: 25px;
+        }
+    }
+
+    .clothing-info-box {
+        .clothing-info {
+            padding-top: 14px;
+            padding-bottom: 14px;
+        }
+
+
+
+    }
+
+    .basement {
+
+
+        &__bunner-1 {
+            height: 610px;
+            flex-direction: column;
+        }
+    }
+}
+
+@media (min-width:426px) and (max-width:520px) {
+    .big-logo-index {
+        .right-name {
+            .block-name-and-figure {
+                margin-left: -25px;
+
+                .name-shop {
+                    .up-name {
+                        font-size: 30px;
+                    }
+
+                    .down-name {
+                        font-size: 24px;
+                    }
+                }
+
+
+
+
+            }
+        }
+    }
+
+    .category {
+
+        &__up,
+        &__down {
+            &__bunner {
+                .bunner-name {
+                    .bunner-up-name {
+                        font-size: 10px;
+                    }
+
+                    .bunner-down-name {
+                        font-size: 18px;
+                    }
+
+                }
+            }
+        }
+    }
+
+    .category__down {
+        .bunner-name {
+            top: 15%;
+        }
+    }
+
+
+}

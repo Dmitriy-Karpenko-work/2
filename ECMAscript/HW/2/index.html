@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="/bookdata.json"></script>
+    <script src="/scriptBook.js" defer></script>
+    <script src="/scriptStudent.js" defer></script>
+
+    <script src="/scriptCSS.js" defer></script>
+  </head>
+  <body>
+    <form class="bookBoxInput">
+      <label class="bookBoxInput__label titleBook" for="bookTitle">
+        <span>Название книги:</span></label
+      >
+      <input
+        class="bookBoxInput__input"
+        type="text"
+        id="bookTitle"
+        placeholder="Введите название книги"
+        required />
+
+      <label class="bookBoxInput__label authorBook" for="bookAuthor">
+        <span>Автор:</span>
+      </label>
+      <input
+        class="bookBoxInput__input"
+        type="text"
+        id="bookAuthor"
+        placeholder="Введите имя автора"
+        required />
+
+      <label class="bookBoxInput__label pagesBook" for="bookPages">
+        <span>Количество страниц:</span></label
+      >
+      <input
+        class="bookBoxInput__input"
+        type="number"
+        id="bookPages"
+        placeholder="Введите количество страниц"
+        required />
+      <label for="submitButton">
+        <span>добавить книгу</span>
+      </label>
+      <input type="submit" id="submitButton" value="Отправить" />
+    </form>
+
+    <form class="studentBoxInput">
+      <label class="studentBoxInput__label nameStudent" for="nameStudent">
+        <span>Имя судента:</span></label
+      >
+      <input
+        name="nameStudent "
+        class="studentBoxInput__input"
+        type="text"
+        id="nameStudent"
+        placeholder="Введите полное имя судента"
+        required />
+
+      <label class="studentBoxInput__label ageStudent" for="ageStudent">
+        <span>Возраст:</span>
+      </label>
+      <input
+        name="ageStudent"
+        class="studentBoxInput__input"
+        type="text"
+        id="ageStudent"
+        placeholder="Введите возраст"
+        required />
+
+      <label class="studentBoxInput__label gradeStudent" for="gradeStudent">
+        <span>Класс:</span></label
+      >
+      <input
+        name="gradeStudent "
+        class="studentBoxInput__input"
+        type="number"
+        id="gradeStudent"
+        placeholder="Введите класс"
+        required />
+      <label for="submitButton">
+        <span>добавить студента</span>
+      </label>
+      <input type="submit" id="submitButton" value="Отправить" />
+    </form>
+    <!-- для примера number -->
+    <!-- <form action="">
+      <input type="number" name="" id="" />
+    </form> -->
+  </body>
+</html>
+<!-- //вопрос 1 в scss добавил глобальное свойство как его локализировать что бы на позних этапах не споткнуться 
+из-за его отсутствия в другой части кода
+-->
+
+<!-- //вопрос 2 вопрос по интерфейсной части при копировании целого блока переименовывать все вложения не трогая предыдущие -->

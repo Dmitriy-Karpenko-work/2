@@ -1,0 +1,25 @@
+[hidden] {
+  display: none !important;
+}
+
+.dialog {
+  position: relative;
+  transition: 2s;
+}
+.dialog__link {
+  transition: 0.5s;
+}
+.dialog__link:hover {
+  transition: 0.5s;
+  background-color: red;
+}
+.dialog__window {
+  margin-top: 5px;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  border: 1px solid red;
+  border-radius: 50px;
+  width: 300px;
+  background-color: white;
+}/*# sourceMappingURL=style.css.map */

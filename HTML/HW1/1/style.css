@@ -1,0 +1,65 @@
+a {
+    text-decoration: none;
+ }
+h1  {
+    color: #ff0000;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
+}
+h2  {
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+    
+}
+
+.sidebar_left {
+    position: fixed;
+    left: 0px;
+    width: 100px;
+    height: 100%;
+    background-color: rgb(190, 190, 190);
+}
+.main{
+    position: fixed;
+    left: 105px;
+    right: 10%;
+    height: 100%;
+    ;
+}
+
+.main_text {
+    position: fixed;
+    left: 50%;
+    top: auto;
+}
+.content{
+    margin-top: 100px;
+    
+}
+.three_p{
+    position: fixed;
+    top: 10%;
+    left: 90%;
+}
+
+.bottom{
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
+
+}
+
+
+
+.paragraf{
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 30px;
+color: #7D7987
+}
+

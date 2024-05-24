@@ -1,0 +1,22 @@
+@import "mixins";
+@import "vars";
+@import "pagesetting";
+
+@import "header";
+
+@import "index";
+@import "catalog";
+@import "product";
+
+@import "fetured_items";
+@import "basement";
+
+@import "footer";
+
+
+@import "tablet";
+@import "mobile";
+@import "./1/buttons";
+
+
+// @import "\screen resolutions\_mobile.scss"

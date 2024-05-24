@@ -1,0 +1,61 @@
+main {
+    margin: 0;
+    padding: 0;
+
+}
+
+// .box-list {
+
+
+//     &__title {
+//         @include displayFlex_ALL_Center;
+//         justify-content: flex-start;
+//     }
+// }
+
+// summary::before {
+//     content: '\2192';
+//     margin-right: 5px;
+// }
+
+// details[open] summary::before {
+//     content: '\2193';
+// }
+
+// details[open] summary span [ display] // summary::after {
+// //     content: '\2193';
+// // }
+
+
+
+
+.sort-box {
+    position: relative;
+    display: flex;
+    gap: 30px;
+
+    summary {
+        display: flex;
+    }
+
+    summary::after {
+        content: url(..\page\catalog\Vector-down.svg);
+    }
+
+    .label_check_box {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+    }
+
+    details[open] .label_check_box {
+        width: 100px;
+        height: 200px;
+        background-color: white;
+        @include border-stock;
+
+    }
+
+
+
+}

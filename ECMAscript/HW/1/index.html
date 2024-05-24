@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <script src="script.js" defer></script>
+  </head>
+  <style>
+    .main {
+      background-color: red;
+      width: 300px;
+      height: 300px;
+    }
+    .box {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      align-content: center;
+    }
+    .needFind {
+      background-color: rgb(153, 255, 0);
+    }
+    .fake {
+      background-color: yellow;
+    }
+  </style>
+  <body>
+    <section class="main">
+      <div class="box">
+        <details class="one">
+          <summary><span>тут возможно спрятан наш блок</span></summary>
+          <div class="two__one">
+            <span class="fake">этот блок нам не нужен</span>
+          </div>
+        </details>
+        <details class="two">
+          <summary class="two__sum">
+            <span>тут возможно спрятан наш блок</span>
+          </summary>
+          <div class="wrapperSpan">
+            <span class="needFind">нужный блок</span>
+          </div>
+        </details>
+      </div>
+    </section>
+  </body>
+</html>

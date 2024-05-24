@@ -1,0 +1,167 @@
+@import "mixins";
+@import "vars";
+
+
+
+nav {
+
+    background-color: $Mainbackgroungcolor;
+}
+
+.top-menu {
+    // * {
+    //     @include displayFlex_ALL_Center;
+    // }
+
+    // max-width: 1600px;
+    height: 75px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: $Mainbackgroungcolor;
+    display: flex;
+    justify-content: space-around;
+
+
+    .logo-search {
+        @include displayFlex_ALL_Center;
+        gap: 41px
+    }
+
+    .user_info {
+        @include displayFlex_ALL_Center;
+        gap: 41px;
+        // &__icon-header:hover {
+        //     background: $MainColorPink;
+    }
+
+    .icon-header:hover {
+        background-color: $MainColorPink;
+    }
+
+    .icon-header img {
+        width: 34px;
+        height: 34px;
+    }
+
+    .icon-header {
+        @include displayFlex_ALL_Center;
+        border-radius: 5px;
+        margin: -3px;
+    }
+}
+
+// главная страница обложка
+.big-logo-index {
+    background-color: #F1E4E6;
+}
+
+.big-logo-index {
+    @include displayFlex_ALL_Center;
+    margin-left: -100px;
+
+    .left-img {
+        max-width: 800px;
+        max-height: 765px;
+    }
+
+    .left-img img {
+        width: 100%;
+    }
+
+    .right-name {
+
+
+
+        .block-name-and-figure {
+            margin-left: -100px;
+            padding-right: 10px;
+            @include displayFlex_ALL_Center;
+
+            color: $TextColor1;
+
+
+            .block-img-pink {
+                width: 12px;
+                height: 92px;
+                background-color: $MainColorPink;
+            }
+
+            .name-shop {
+
+                .up-name {
+
+                    font-size: 48px;
+                    font-weight: 900;
+                    line-height: 58px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                }
+
+                .down-name {
+
+                    font-size: 32px;
+                    font-weight: 700;
+                    line-height: 38px;
+                    letter-spacing: 0em;
+                    text-align: left;
+
+                    .name-pink {
+                        color: $MainColorPink;
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+
+
+
+
+// в продукте "хлебные крошки"
+.nav_bunner {
+    *a {
+        color: $TextColor2;
+    }
+
+    *a:hover {
+        background-color: $MainColorPink;
+        border-radius: 5px
+    }
+
+    @include displayFlex_ALL_Center;
+    justify-content: space-around;
+    background-color: #F8F3F4;
+    ;
+
+    width: 100%;
+    height: 150px;
+    ;
+
+    &__speech {
+        color: $MainColorPink;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 29px;
+
+    }
+
+    &__bread_crumbs {
+
+        a {
+            color: rgb(0, 175, 6);
+        }
+
+        &__current_page {
+
+            color: $MainColorPink;
+
+
+            font-size: 18px;
+            font-weight: bold;
+            line-height: 17px;
+
+        }
+    }
+}

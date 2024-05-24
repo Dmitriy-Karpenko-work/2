@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>текст для пятого задания</title>
+    <link rel="stylesheet" href="/style/style.css" />
+    <script src="1.js" defer></script>
+  </head>
+  <style>
+    .message {
+      visibility: hidden;
+    }
+    .error {
+      border: 1px solid red;
+    }
+  </style>
+
+  <body>
+    <input class="input-from" id="from" type="text" />
+    В инпуте написано: <span class="input__span" id="output"></span>
+
+    <br />
+
+    <button class="messageBtn">Показать блок</button>
+    <div class="message"><span> Привет :)</span></div>
+
+    <br />
+
+    <form id="form">
+      <label>
+        Первый инпут:
+        <input id="input1" class="form-control" type="text" />
+      </label>
+      <br />
+      <br />
+      <label>
+        Второй инпут:
+        <select id="input2" class="form-control">
+          <option value=""></option>
+          <option value="1">Один</option>
+          <option value="2">Два</option>
+        </select>
+      </label>
+      <br />
+      <br />
+      <button type="button" onclick="validateForm()">Отправить</button>
+    </form>
+  </body>
+</html>

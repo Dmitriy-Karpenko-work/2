@@ -1,0 +1,60 @@
+@import "variables";
+@import "mixins";
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+// a {
+//     text-decoration: none;
+// }
+
+%siteFontStyle {
+    font-family: sans-serif;
+    font-style: normal;
+}
+
+main {
+    width: $widthSite;
+}
+
+.nav {
+    display: flex;
+    gap: $navGap;
+
+    &__link {
+        @extend %siteFontStyle;
+        color: $colorText;
+        text-decoration: none;
+    }
+
+}
+
+
+.container {
+    // display: flex;
+    // flex-direction: column;
+    @include displayFlex;
+    flex-direction: row;
+
+    width: $widthSite;
+
+    &__title {
+        // color:filter: invert($colorText);
+        color: $colorText;
+    }
+
+    &__item {
+        height: 200px;
+        border: $border1px;
+        width: 300px;
+        width: calc($widthSite / 4);
+        background-color: $colorBG;
+        overflow: scroll;
+
+    }
+
+    gap:calc($navGap * 2);
+}

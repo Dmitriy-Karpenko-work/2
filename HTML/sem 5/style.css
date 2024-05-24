@@ -1,0 +1,506 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: local('OpenSans'),
+        url(/fonts/OpenSans.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto'),
+        url(/fonts/Roboto.ttf);
+}
+
+/* @()
+    font-family: 'OpenSans', 'Roboto';
+    src: local('Font Name'), local('Font-Name'),
+        url(/fonts/OpenSans.ttf),(/fonts/Roboto.ttf);
+} */
+
+
+.menu {
+    background: rgb(8, 16, 29);
+    background: linear-gradient(180deg, rgba(8, 16, 29, 1) 0%, rgba(9, 17, 30, 1) 100%);
+}
+
+.nav__bar-links {
+    height: 100px;
+    gap: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__link {
+    font-family: OpenSans;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav__link a:visited {
+    /* Цвет посещённой ссылки */
+    color: #FFFFFF;
+}
+
+.nav__link a:active {
+    /* Цвет ссылки при клике */
+    color: #FFFFFF;
+}
+
+.page {
+    background-color: #09111e;
+    font-family: OpenSans;
+    color: #FFFFFF;
+
+    width: auto;
+}
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------ */
+.frame-1 {
+    gap: 128px;
+    padding-top: 160px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.frame-1 .block-text .pre-title {
+    color: #3A68B8;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    width: 265px;
+    height: 29px;
+}
+
+
+.frame-1 .block-text .title {
+    font-size: 55px;
+    font-weight: 800;
+    line-height: 71px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    margin-top: 10px;
+
+    width: 604px;
+    height: 142px;
+}
+
+
+
+.frame-1 .block-text .text {
+
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    opacity: 0.7;
+
+    margin-top: 40px;
+
+    width: 558px;
+    height: 87px;
+
+    opacity: 0.7px;
+
+
+}
+
+.frame-1 .block-text .buttoms {
+
+
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.frame-1 .block-text .buttoms {
+    display: flex;
+}
+
+.buttom1 {
+    background: #3A68B8;
+    Width: 113px;
+    padding: 15px 30px 15px 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.buttom2 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+
+
+    background: #3A68B8;
+
+    width: 151px;
+    padding: 15px 30px 15px 30px;
+    border-radius: 5px;
+    gap: 10px;
+
+
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.block-logo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 72px;
+    padding-top: 197px;
+}
+
+/* -------------------------------------------------------- */
+.frame-2 {
+    gap: 68px;
+    margin-top: 157px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.frame-2 .block-text {
+    width: 484px;
+    height: 314px;
+}
+
+
+
+
+
+
+.frame-2 .block-text .title {
+    width: 484px;
+    height: 104px;
+
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+}
+
+.frame-2 .block-text .text {
+    width: 460px;
+    height: 78px;
+    opacity: 0.7;
+    margin-top: 30px;
+
+}
+
+.frame-2 .block-text .buttoms {
+    margin-top: 50px;
+}
+
+/* -------------------------------------------------------- */
+.frame-3 {
+    gap: 68px;
+    margin-top: 264px;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+}
+
+
+
+.frame-3 .cart-top {
+    gap: 60px;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.frame-3 .cart-bottom {
+    gap: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+.cart {
+    width: 362px;
+    height: 389px;
+    border-radius: 10px;
+
+    background-color: #132035;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cart-big {
+    width: 784px;
+    height: 808px;
+    border-radius: 10px;
+    background-color: #132035;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cart-big .title {
+
+    width: 694px;
+    height: 62px;
+    opacity: 0.7;
+
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: center;
+
+
+}
+
+.cart-big .text {
+    width: 694px;
+    height: 130px;
+    opacity: 0.7;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.cart .img {}
+
+.cart .title {
+    width: 302px;
+    height: 62px;
+    opacity: 0.7;
+
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: center;
+
+
+}
+
+.cart .text {
+    width: 302px;
+    height: 104px;
+    opacity: 0.7;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.cart-row {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* -------------------------------------------------------- */
+
+.frame-4 {
+    margin-top: 243px;
+    padding-bottom: 221px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: center;
+    gap: 25px;
+}
+
+.frame-4 .block-text {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.frame-4 .block-text .title {
+    width: 548px;
+    height: 104px;
+
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    margin-bottom: 20px;
+}
+
+.frame-4 .block-text .text {
+    width: 460px;
+    height: auto;
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+/* -------------------------------------------------------- */
+
+
+.foot {
+    color: #FFFFFF;
+    font-family: Roboto;
+    background: rgb(9, 17, 31);
+    background: linear-gradient(0deg, rgba(9, 17, 31, 1) 0%, rgba(6, 14, 28, 1) 100%);
+}
+
+.foot-bar {
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-bar .foot-cart {
+    width: 362px;
+}
+
+.foot-cart {
+    gap: 25px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+
+.foot-cart .text {
+    gap: 9px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.foot-cart .title {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.foot-cart .text-about {
+    padding-top: 33px;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 100;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.social_media {
+    gap: 24px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    /* Цвет посещённой ссылки */
+    color: #FFFFFF;
+}
+
+a:active {
+    /* Цвет ссылки при клике */
+    color: #FFFFFF;
+}

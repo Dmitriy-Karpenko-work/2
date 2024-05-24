@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.runningLine {
+  display: flex;
+  overflow-x: hidden;
+  width: 100%;
+  height: 140px;
+
+  background: rgb(68, 68, 68);
+  background: linear-gradient(
+    0deg,
+    rgba(68, 68, 68, 1) 20%,
+    rgba(95, 95, 95, 0.7035189075630253) 70%,
+    rgba(124, 124, 124, 0) 100%
+  );
+  &--text {
+    div {
+      font-family: "Courier New", Courier, monospace;
+      font-size: 70px;
+      font-size: sans-serif;
+      line-height: 1.25;
+      padding: 25px 0;
+      white-space: nowrap;
+      display: inline-block;
+    }
+    &__runningLine1 {
+      animation: marquee1 20s infinite linear;
+      animation-delay: -20s;
+      &::after {
+        content: " html5 css  без js |";
+      }
+      @keyframes marquee1 {
+        0% {
+          transform: translateX(100%);
+        }
+        100% {
+          transform: translateX(-100%);
+        }
+      }
+    }
+
+    &__runningLine2 {
+      animation: marquee2 20s infinite linear;
+      animation-delay: -10s;
+      &::after {
+        content: " html5 css без js |";
+      }
+
+      @keyframes marquee2 {
+        0% {
+          transform: translateX(0%);
+        }
+        100% {
+          transform: translateX(-200%);
+        }
+      }
+    }
+  }
+  &--icon {
+    div {
+      font-family: "Courier New", Courier, monospace;
+      font-size: 70px;
+      font-size: sans-serif;
+      line-height: 1.25;
+      padding: 25px 0;
+      white-space: nowrap;
+      display: flex;
+      align-items: center;
+    }
+    &__runningLine1 {
+      animation: marquee1 20s infinite linear;
+      animation-delay: -20s;
+      &::after {
+        content: "  svg изображения";
+      }
+      @keyframes marquee1 {
+        0% {
+          transform: translateX(100%);
+        }
+        100% {
+          transform: translateX(-100%);
+        }
+      }
+    }
+
+    &__runningLine2 {
+      animation: marquee2 20s infinite linear;
+      animation-delay: -10s;
+      &::after {
+        content: "  svg изображения";
+      }
+
+      @keyframes marquee2 {
+        0% {
+          transform: translateX(0%);
+        }
+        100% {
+          transform: translateX(-200%);
+        }
+      }
+    }
+  }
+}

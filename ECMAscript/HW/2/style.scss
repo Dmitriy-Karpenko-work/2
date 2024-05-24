@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+//хочу применить только к number
+// input::-webkit-outer-spin-button,
+// input::-webkit-inner-spin-button {
+//   /* display: none; <- Crashes Chrome on hover */
+//   -webkit-appearance: none;
+//   margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+// }
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+form {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  padding: 5px;
+  width: 300px;
+}
+.bookBoxInput {
+  &__input {
+    border-radius: 10px;
+    border: 1px solid grey;
+    padding: 3px;
+    padding-left: 10px;
+  }
+  &__label {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+    padding-left: 5px;
+    &:nth-child(n + 2) {
+      padding-top: 10px;
+    }
+  }
+  &__svg {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.studentBoxInput {
+  &__input {
+    border-radius: 10px;
+    border: 1px solid grey;
+    padding: 3px;
+    padding-left: 10px;
+  }
+  &__label {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+    padding-left: 5px;
+    &:nth-child(n + 2) {
+      padding-top: 10px;
+    }
+  }
+  #gradeStudent::-webkit-outer-spin-button,
+  #gradeStudent::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+  }
+
+  &__svg {
+    width: 20px;
+    height: 20px;
+  }
+}

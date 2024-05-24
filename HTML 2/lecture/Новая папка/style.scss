@@ -1,0 +1,54 @@
+@import "vars";
+@import "mixin";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    summary::-webkit-details-marker {
+        display: none;
+    }
+}
+
+body {
+    @include AlL-display-flex-center;
+    background-color: gray;
+}
+
+.center {
+    @include AlL-display-flex-center;
+}
+
+
+.block-sorts {
+    font-size: 40px;
+    margin-top: 50px;
+    gap: 100px;
+    height: 150px;
+    width: 500px;
+    background-color: aqua;
+
+
+}
+
+.sort1 {
+    position: relative;
+}
+
+.filter {
+    top: 0;
+    width: 360px;
+    position: absolute;
+
+    // background-color: white;
+    &[open] path {
+        fill: pink;
+    }
+
+    &__summery {
+        @include AlL-display-flex-center;
+        gap: 11px;
+
+    }
+}

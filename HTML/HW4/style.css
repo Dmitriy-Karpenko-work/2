@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: local('Gilroy-Medium'),
+        url(/fonts/Gilroy-bold/Gilroy-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Gilroy-SemiBold';
+    src: local('Gilroy-SemiBold'),
+        url(/fonts/Gilroy-bold/gilroy-semibold.ttf);
+
+}
+
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: local('Gilroy-Bold'),
+        url(/fonts/Gilroy-bold/Gilroy-Bold.ttf);
+
+
+}
+
+.page {
+    margin-left: 375px;
+}
+
+.div1 {
+
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+
+}
+
+.logo {
+
+    flex-shrink: 0;
+
+}
+
+.menu_bar {
+    display: flex;
+    width: 1170px;
+    height: 40px;
+    flex-shrink: 0;
+    margin-top: 40px;
+
+    border: 1px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.GROWBE {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.Grow {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Be {
+    color: #F25822;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+/* лого с div
+
+
+.logo__Grow {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.logo__BE {
+    color: #F25822;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+} */
+.menu {
+
+
+
+
+    width: 533px;
+    height: 17px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button__menu_home {
+    color: #F25822;
+    font-family: Gilroy-SemiBold;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.button__menu {
+    color: #000;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.icon__menu {
+    margin-left: 5px;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 84px;
+}
+
+.main__left-side {}
+
+.title {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    width: 522px;
+    height: 222px;
+}
+
+.main_right-side {}
+
+
+
+
+
+.title {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sub-title {
+    width: 466px;
+    height: 48px;
+    padding-top: 17px;
+
+    color: #888;
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.main__bottoms {
+    gap: 72px;
+    padding-top: 37px;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.main_bottom-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 140px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+
+}
+
+.main_bottom-left-text {
+    color: #FFF;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.main_bottom-right {
+    color: #AAA;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+.brands {
+    flex-shrink: 0;
+    width: 1920px;
+    height: 243px;
+    gap: 48px;
+
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: flex-start;
+    align-items: center;
+    justify-content: center;
+}

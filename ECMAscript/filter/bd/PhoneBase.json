@@ -1,0 +1,302 @@
+[
+    {   
+        "id": "11",
+        "number": "001",
+        "name": "iPhone 13",
+        "category": "Phone",
+        "brand": "Apple",
+        "img": "https://yandex-images.clstorage.net/e5ZaW1168/425144Ck/y0vwahhVdnKe9uUDomYA6rFxuO_LvhwnvL6xI4hdj97CYEGD_l755Q4zN5hxv9a7chTrLHfL19shFyeSadzVIO9P5BqJtKNXHkalQveiERpgNqqNyUx_hMt8wwBeTG-fZvDBB49LXwPPdjH950gUyfIFywwh75OPNCDwlu7KsHXrqdPcjrAWoZ4V9hOBIdLLYAWZPFhcjSabb1Ay_47-LaeSYaI8eK2xmyXyfpZKRUjzB-jdcJwR7bTSspWNiUN2K1gR7p_A5zN9tiWQAMACaaAH2n5YTL9mSKxBI059bp_HgoChDrj8YJhlAw_FaCaYofRLPGPc8wzGEFDXTHqidthqwh7O8XYS7meHI5NykRvjBztcqXyv1Nq-A_IP7z8tFnDBsi_pjpCo11G8V3gUOMJFKw4h7nK-BRCS1AwrYkaoasOvjiC1Iz22l4IiIAK6k3W5nbneHhVLXkIT3exd3PaBkRNcm26QqBagPpZJF1vy1GivAG3yzOZh8_ZcG8JnyzuTHC8ipgOtRiWhsSHDuGKX-n75f23kiL4jku3vzf2kkGERPJq9oHonIJxkS6cJIoQK_JP-UPxmk_NkfkmCRzoa4lysM7ahbJfkMRBx8algpSnvun9sFoj-gTD83c2e5MCB4V1qr8M7lDBvxBmmu9LV2r9iT3J-NNKxRu9ZsVSJShH9PjCVEZ4ElGCRc3G64NcLjtot3vSYDmEhnJ9cLTWyoOF_-mzRa8Tjj-WKZRqihVtesk3CH2YSkGUd2lI0qqizDz0BBhOedPfT0zNCWtCGKw1LTJ73GP0TkZ6OjV1kwmLTnetec7pnEPzWucSb4QZ7r2BOUaxkQDGVnJsippjL4s_csObhXcT3IuGAYSpx1yp_mW1cxFiMInCv3R7N1fDQ8vxY_nIrBnBOphm2S8BHOf9QHHDcFrEAZhwq0oWqSGL_bZOWM83Wt9Gi8jEJsNXoPJn-rvT7TOHTTy0O0",
+        "discription": "Новая модель iPhone от Apple. Этот смартфон обладает передовыми технологиями, включая мощный процессор, улучшенную камеру и долговечную батарею. Он предлагает высокую производительность и впечатляющий дизайн.",
+        "price": "$999"
+    },
+    {   
+        "id": "12",
+        "number": "002",
+        "name": "Galaxy S21",
+        "category": "Phone",
+        "brand": "Samsung",
+        "img": "https://i0.wp.com/www.brumpost.com/wp-content/uploads/2021/01/Galaxy-S21-Phantom-Green.jpg",
+        "discription": "Новая модель Galaxy S21 от Samsung. Этот смартфон предлагает передовые функции, включая высококачественный дисплей, мощную камеру и быстрый процессор. Он идеально подходит для повседневного использования.",
+        "price": "$799"
+    },
+    {   
+        "id": "13",
+        "number": "003",
+        "name": "OnePlus 9",
+        "category": "Phone",
+        "brand": "OnePlus",
+        "img": "https://allohastore.ru/image/cache/catalog/onepluse/Morning%20mist-gallery_2-800x800.png",
+        "discription": "Новая модель OnePlus 9. Этот смартфон сочетает в себе высокую производительность, стильный дизайн и отличную камеру. Он предлагает множество функций для удовлетворения потребностей пользователей.",
+        "price": "$699"
+    },
+    {   
+        "id": "14",
+        "number": "004",
+        "name": "Mi 11",
+        "category": "Phone",
+        "brand": "Xiaomi",
+        "img": "https://gadget-bar.ru/upload/iblock/cff/fyqx1gfo9emm8jqes76a4eysjsq4v027.webp",
+        "discription": "Новая модель Mi 11 от Xiaomi. Этот смартфон отличается высокой производительностью, качественной камерой и большим дисплеем. Он предлагает отличное соотношение цены и качества.",
+        "price": "$649"
+    },
+    {   
+        "id": "15",
+        "number": "005",
+        "name": "Pixel 6",
+        "category": "Phone",
+        "brand": "Google",
+        "img": "https://i2.wp.com/www.mockupdaddy.com/wp-content/uploads/edd/2021/08/google-pixel-6-psd-mockup-front-and-back-side.jpg",
+        "discription": "Новая модель Pixel 6 от Google. Этот смартфон предлагает удобные функции, высокое качество камеры и инновационные технологии. Он идеально подходит для пользователей, которым важна производительность и качество.",
+        "price": "$699"
+    },
+    {   
+        "id": "16",
+        "number": "006",
+        "name": "Mate 40",
+        "category": "Phone",
+        "brand": "Huawei",
+        "img": "https://consumer.huawei.com/content/dam/huawei-cbg-site/en/mkt/about-us/cbg/mate40.jpg",
+        "discription": "Новая модель Mate 40 от Huawei. Этот смартфон предлагает мощные функции, качественный дисплей и продвинутые камеры. Он идеально подходит для пользователей, которым нужны передовые технологии и стильный дизайн.",
+        "price": "$899"
+    },
+    {   
+        "id": "17",
+        "number": "007",
+        "name": "Redmi Note 10",
+        "category": "Phone",
+        "brand": "Xiaomi",
+        "img": "https://unite4buy.ru/media/images/2021/03/05/redmi-note-10-4_CS5cyCb.jpg",
+        "discription": "Новая модель Redmi Note 10 от Xiaomi. Этот смартфон отличается ярким дисплеем, мощным процессором и долгим временем работы. Он идеально подходит для пользователей, которым нужен доступный и функциональный смартфон.",
+        "price": "$279"
+    },
+    {   
+        "id": "18",
+        "number": "008",
+        "name": "ROG Phone 5",
+        "category": "Phone",
+        "brand": "Asus",
+        "img": "https://s3.e2e4.ru/imgproxy/1957942",
+        "discription": "Новая модель ROG Phone 5 от Asus. Этот игровой смартфон предлагает мощную производительность, высококачественный дисплей и специализированные игровые функции. Он идеально подходит для геймеров и ценителей высокой производительности.",
+        "price": "$999"
+    },
+    {   
+        "id": "19",
+        "number": "009",
+        "name": "Xperia 1 III",
+        "category": "Phone",
+        "brand": "Sony",
+        "img": "https://i.ebayimg.com/images/g/LDwAAOSwD7pkfVDs/s-l1600.jpg",
+        "discription": "Новая модель Xperia 1 III от Sony. Этот смартфон предлагает передовые функции камеры, высокое качество дисплея и мощную производительность. Он идеально подходит для любителей фотографии и видеосъёмки.",
+        "price": "$1299"
+    },
+    {   
+        "id": "20",
+        "number": "010",
+        "name": "Find X3 Pro",
+        "category": "Phone",
+        "brand": "Oppo",
+        "img": "https://4dim.ru/wp-content/uploads/utechka-iz-oppo-find-x3-pro-pokazyvaet-adaptivnyj-displej-s-chastotoj-obnovleniya-120-gcz-4-megapikselnye-kamery-na-50-mp-sd888-i-mnogoe-drugoe_5fcf1cf7816f6.jpeg",
+        "discription": "Новая модель Find X3 Pro от Oppo. Этот смартфон отличается стильным дизайном, высоким качеством дисплея и мощной камерой. Он предлагает широкий выбор функций для удовлетворения потребностей пользователей.",
+        "price": "$1049"
+    },
+    {   
+        "id": "21",
+        "number": "011",
+        "name": "Zenfone 8",
+        "category": "Phone",
+        "brand": "Asus",
+        "img": "https://i.ebayimg.com/images/g/WQ8AAOSw4yJgnUax/s-l1600.jpg",
+        "discription": "Новая модель Zenfone 8 от Asus. Этот компактный смартфон предлагает высокую производительность, стильный дизайн и качественную камеру. Он идеально подходит для пользователей, которым нужен мощный и удобный смартфон.",
+        "price": "$799"
+    },
+    {   
+        "id": "22",
+        "number": "012",
+        "name": "A54",
+        "category": "Phone",
+        "brand": "Realme",
+        "img": "https://www.gizmochina.com/wp-content/uploads/2022/03/realme-C31-Render-Leak-A-1920x1080.jpg",
+        "discription": "Новая модель A54 от Realme. Этот смартфон предлагает хорошее соотношение цены и качества, стильный дизайн и функциональную камеру. Он идеально подходит для пользователей, которым нужен доступный и надежный смартфон.",
+        "price": "$199"
+    },
+    {   
+        "id": "23",
+        "number": "013",
+        "name": "Vivo X60 Pro",
+        "category": "Phone",
+        "brand": "Vivo",
+        "img": "https://cdn-files.kimovil.com/default/0005/52/thumb_451992_default_big.jpeg",
+        "discription": "Новая модель Vivo X60 Pro. Этот смартфон предлагает инновационные функции, высокое качество камеры и стильный дизайн. Он идеально подходит для пользователей, которым важны передовые технологии и профессиональное качество фотографий.",
+        "price": "$799"
+    },
+    {   
+        "id": "24",
+        "number": "014",
+        "name": "Nord N10",
+        "category": "Phone",
+        "brand": "OnePlus",
+        "img": "https://jobses.ru/image/catalog/categories/oneplus-nord-n10.png",
+        "discription": "Новая модель Nord N10 от OnePlus. Этот смартфон предлагает доступные функции, высокую производительность и стильный дизайн. Он идеально подходит для пользователей, которым нужен надежный и функциональный смартфон.",
+        "price": "$299"
+    },
+    {   
+        "id": "25",
+        "number": "015",
+        "name": "Axon 30 Ultra",
+        "category": "Phone",
+        "brand": "ZTE",
+        "img": "https://tehnoteca.ru/img/2007/2006831/zte_axon_30_ultra_5g_256gb_8gb_10.jpg",
+        "discription": "Новая модель Axon 30 Ultra от ZTE. Этот смартфон предлагает передовые технологии, высокое качество камеры и мощную производительность. Он идеально подходит для пользователей, которые ценят инновации и производительность.",
+        "price": "$749"
+    },
+    {   
+        "id": "26",
+        "number": "016",
+        "name": "IQOO 7 Legend",
+        "category": "Phone",
+        "brand": "Vivo",
+        "img": "https://www.theindianwire.com/wp-content/uploads/2021/03/IQOO-7.jpg",
+        "discription": "Новая модель IQOO 7 Legend от Vivo. Этот смартфон предлагает высокую производительность, стильный дизайн и продвинутые игровые функции. Он идеально подходит для геймеров и ценителей мощных устройств.",
+        "price": "$799"
+    },
+    {   
+        "id": "27",
+        "number": "017",
+        "name": "Legion Phone Duel 2",
+        "category": "Phone",
+        "brand": "Lenovo",
+        "img": "https://donanimarsivi.com/wp-content/uploads/2021/04/lenovo-legion-2-4.jpg",
+        "discription": "Новая модель Legion Phone Duel 2 от Lenovo. Этот игровой смартфон предлагает высокую производительность, уникальный дизайн и передовые игровые функции. Он идеально подходит для геймеров и любителей мощных устройств.",
+        "price": "$999"
+    },
+    {   
+        "id": "28",
+        "number": "018",
+        "name": "Redmi Note 9 Pro",
+        "category": "Phone",
+        "brand": "Xiaomi",
+        "img": "https://www.millionpodarkov.ru/incoming_img/pleer.ru/9879200.jpg",
+        "discription": "Новая модель Redmi Note 9 Pro от Xiaomi. Этот смартфон предлагает хорошее соотношение цены и качества, продвинутые функции и стильный дизайн. Он идеально подходит для пользователей, которым нужен доступный и мощный смартфон.",
+        "price": "$299"
+    },
+    {   
+        "id": "29",
+        "number": "019",
+        "name": "Xperia 5 III",
+        "category": "Phone",
+        "brand": "Sony",
+        "img": "https://wishmaster.me/upload/iblock/89f/89f81abdfcaec24cb63ea19a414f2fab.png",
+        "discription": "Новая модель Xperia 5 III от Sony. Этот смартфон предлагает передовые технологии, высокое качество камеры и продвинутые функции. Он идеально подходит для пользователей, которым важны инновации и профессиональное качество фотографий.",
+        "price": "$999"
+    },
+    {   
+        "id": "30",
+        "number": "020",
+        "name": "K40",
+        "category": "Phone",
+        "brand": "Redmi",
+        "img": "https://www.caseup-turkey.com/resimler/redmi-k40%20(1).jpg",
+        "discription": "Новая модель K40 от Redmi. Этот смартфон предлагает отличную производительность, высокое качество камеры и стильный дизайн. Он идеально подходит для пользователей, которые ценят мощные функции и доступный ценник.",
+        "price": "$349"
+    },
+    {   
+        "id": "31",
+        "number": "021",
+        "name": "Legion Phone Duel",
+        "category": "Phone",
+        "brand": "Lenovo",
+        "img": "https://avatars.mds.yandex.net/get-mpic/5221807/img_id8949505416821222238.jpeg/orig",
+        "discription": "Новая модель Legion Phone Duel от Lenovo. Этот игровой смартфон предлагает высокую производительность, уникальный дизайн и передовые игровые функции. Он идеально подходит для геймеров и любителей мощных устройств.",
+        "price": "$899"
+    },
+    {   
+        "id": "32",
+        "number": "022",
+        "name": "Mi 11 Ultra",
+        "category": "Phone",
+        "brand": "Xiaomi",
+        "img": "https://img.tehnomaks.ru/images/post/161770077326.jpg",
+        "discription": "Новая модель Mi 11 Ultra от Xiaomi. Этот смартфон предлагает передовые функции, высокое качество камеры и продвинутые технологии. Он идеально подходит для пользователей, которые ценят высокую производительность и качество.",
+        "price": "$1199"
+    },
+    {   
+        "id": "33",
+        "number": "023",
+        "name": "Galaxy A72",
+        "category": "Phone",
+        "brand": "Samsung",
+        "img": "https://m-cdn.phonearena.com/images/articles/369813-image/Samsung-Galaxy-A72-in-black-and-white.jpg",
+        "discription": "Новая модель Galaxy A72 от Samsung. Этот смартфон предлагает высокое качество камеры, мощный процессор и стильный дизайн. Он идеально подходит для пользователей, которые ценят качественные функции и доступные цены.",
+        "price": "$449"
+    },
+    {   
+        "id": "34",
+        "number": "024",
+        "name": "Nord N100",
+        "category": "Phone",
+        "brand": "OnePlus",
+        "img": "https://vedroid.com/img/smartphones/oneplus-nord-n100/05.jpg",
+        "discription": "Новая модель Nord N100 от OnePlus. Этот смартфон предлагает хорошее соотношение цены и качества, продвинутые функции и стильный дизайн. Он идеально подходит для пользователей, которым важна производительность и доступность.",
+        "price": "$179"
+    },
+    {   
+        "id": "35",
+        "number": "025",
+        "name": "Zenfone 8 Flip",
+        "category": "Phone",
+        "brand": "Asus",
+        "img": "https://tehnoteca.ru/img/2020/2019011/asus_zenfone_8_flip_256gb_7.jpg",
+        "discription": "Новая модель Zenfone 8 Flip от Asus. Этот смартфон предлагает уникальный механизм камеры, высокую производительность и стильный дизайн. Он идеально подходит для пользователей, которые ценят инновации и качество.",
+        "price": "$999"
+    },
+    {   
+        "id": "36",
+        "number": "026",
+        "name": "V21",
+        "category": "Phone",
+        "brand": "Vivo",
+        "img": "https://images.news18.com/ibnlive/uploads/2021/04/1619588190_vivo_v21_v21e.jpg",
+        "discription": "Новая модель V21 от Vivo. Этот смартфон предлагает передовые функции камеры, стильный дизайн и продвинутые технологии. Он идеально подходит для пользователей, которым важна качественная фотография и видеосъёмка.",
+        "price": "$599"
+    },
+    {   
+        "id": "37",
+        "number": "027",
+        "name": "Nokia X20",
+        "category": "Phone",
+        "brand": "Nokia",
+        "img": "https://nl.letsgodigital.org/uploads/2021/04/g20.jpg",
+        "discription": "Новая модель Nokia X20. Этот смартфон предлагает высокую производительность, долговечную батарею и качественную камеру. Он идеально подходит для пользователей, которые ценят надежность и продвинутые функции.",
+        "price": "$499"
+    },
+    {   
+        "id": "38",
+        "number": "028",
+        "name": "Z Fold 3",
+        "category": "Phone",
+        "brand": "Samsung",
+        "img": "https://www.hi-fi.ru/upload/iblock/709/uwd7nzjoaz7erh5qude7yza5adkfzyyv.jpg",
+        "discription": "Новая модель Z Fold 3 от Samsung. Этот складной смартфон предлагает инновационный дизайн, мощные функции и высокое качество камеры. Он идеально подходит для пользователей, которые ценят передовые технологии и стильный дизайн.",
+        "price": "$1799"
+    },
+    {   
+        "id": "39",
+        "number": "029",
+        "name": "Black Shark 4 Pro",
+        "category": "Phone",
+        "brand": "Xiaomi",
+        "img": "https://msk.stores-apple.com/upload/descriptions/xiaomi/phones/black_shark/Black_Shark_4_Pro_grey_2.jpg",
+        "discription": "Новая модель Black Shark 4 Pro от Xiaomi. Этот игровой смартфон предлагает мощные функции, высокую производительность и специализированные игровые функции. Он идеально подходит для геймеров и ценителей мощных устройств.",
+        "price": "$699"
+    },
+    {   
+        "id": "40",
+        "number": "030",
+        "name": "Galaxy A52",
+        "category": "Phone",
+        "brand": "Samsung",
+        "img": "https://androidmobile.pk/wp-content/uploads/2021/04/samsung-galaxy-a52-price-in-pakistan.png",
+        "discription": "Новая модель Galaxy A52 от Samsung. Этот смартфон предлагает качественные функции, стильный дизайн и доступную цену. Он идеально подходит для пользователей, которые ценят надежность и функциональность.",
+        "price": "$349"
+    }
+]

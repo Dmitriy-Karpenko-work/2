@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.conteinerTime__btn {
+  position: relative;
+}
+.conteinerTime__timeWindow {
+  position: absolute;
+  display: block;
+  background-color: aqua;
+  border: 1px solid red;
+  height: 100px;
+  width: 200px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease, visibility 0.5s ease, background-color 0.5s ease;
+}
+.conteinerTime__timeWindow:hover {
+  background-color: red;
+}
+.conteinerTime__timeWindow--show {
+  opacity: 1;
+  visibility: visible;
+}/*# sourceMappingURL=style.css.map */

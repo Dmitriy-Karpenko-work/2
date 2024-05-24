@@ -1,0 +1,27 @@
+.bottom-menu {
+    height: 73px;
+    background-color: $Mainbackgroungcolor;
+    @include displayFlex_ALL_Center;
+    justify-content: space-around;
+}
+
+.copyright-block {
+    color: white
+}
+
+.social-icons {
+    @include displayFlex_ALL_Center;
+    gap: 7px
+}
+
+.icon-bottom {
+    @include displayFlex_ALL_Center;
+    border: 1px solid black;
+    width: 32px;
+    height: 32px;
+    background-color: white;
+}
+
+.icon-bottom:hover {
+    background-color: $MainColorPink;
+}
