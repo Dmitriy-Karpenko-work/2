@@ -10,11 +10,10 @@ const server = http.createServer((req, res) => {
     });
     countFirst++;
     res.end(
-      //   `<h1>Главная страница</h1>
-      //      <a href="/about">Переход на страницу About</a>
-      //      <p>Количество посещений страницы ${countFirst}</p>
-      //      `
-      ``
+      `<h1>Главная страница</h1>
+            <a href="/about">Переход на страницу About</a>
+            <p>Количество посещений страницы ${countFirst}</p>
+            `
     );
   } else if (req.url === "/about") {
     res.writeHead(200, {
