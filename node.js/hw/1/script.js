@@ -11,8 +11,8 @@ const server = http.createServer((req, res) => {
     countFirst++;
     res.end(
       `<h1>Главная страница</h1>
-            <a href="/about">Переход на страницу About</a>
-            <p>Количество посещений страницы ${countFirst}</p>
+        <a href="/about">Переход на страницу About</a>
+        <p>Количество посещений страницы ${countFirst}</p>
             `
     );
   } else if (req.url === "/about") {
