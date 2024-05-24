@@ -1,4 +1,6 @@
 const http = require("http");
+const path = require("path");
+const { pathToFileURL } = require("url");
 //счетчик переходов на главную
 let countFirst = 0;
 //счетчик переходов на вторую страницу
@@ -14,7 +16,7 @@ const server = http.createServer((req, res) => {
       //      <a href="/about">Переход на страницу About</a>
       //      <p>Количество посещений страницы ${countFirst}</p>
       //      `
-      ``
+      `${pathToFileURL("./builderMain.js")}`
     );
   } else if (req.url === "/about") {
     res.writeHead(200, {
