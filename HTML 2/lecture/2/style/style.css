@@ -628,7 +628,7 @@ main {
   color: white;
   border-radius: 0 25px 25px 0;
   cursor: pointer;
-  border: 1px solid #F16D7F;
+  border: 2px solid #F16D7F;
 }
 .basement__bunner-2 .subscribe__button:hover {
   border: 2px solid black;

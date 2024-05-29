@@ -1,0 +1,16 @@
+{
+  "name": "2",
+  "version": "1.0.0",
+  "main": "1.js",
+  "scripts": {
+    "start": "node ./1.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "decimal.js": "^10.4.3",
+    "number-precision": "^1.6.0"
+  }
+}
