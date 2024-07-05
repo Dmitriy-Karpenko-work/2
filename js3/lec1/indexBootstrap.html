@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Список статей</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  </head>
+  <body>
+    <div class="container mt-5">
+      <h1 class="text-center mb-4">Список статей</h1>
+
+      <!-- Кнопки управления -->
+      <div class="mb-3">
+        <button id="addArticleButton" class="btn btn-primary mr-2">
+          Добавить статью
+        </button>
+        <button id="deleteArticleButton" class="btn btn-danger">Удалить</button>
+      </div>
+
+      <!-- Список статей -->
+      <div id="articlesList"></div>
+    </div>
+
+    <!-- Модальное окно для редактирования статьи -->
+    <div
+      class="modal fade"
+      id="editArticleModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="editArticleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="editArticleModalLabel">
+              Редактировать статью
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="form-group">
+              <label for="editArticleTitle">Заголовок</label>
+              <input type="text" class="form-control" id="editArticleTitle" />
+            </div>
+            <div class="form-group">
+              <label for="editArticleContent">Текст статьи</label>
+              <textarea
+                class="form-control"
+                id="editArticleContent"
+                rows="3"></textarea>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal">
+              Закрыть
+            </button>
+            <button
+              type="button"
+              class="btn btn-primary"
+              id="saveChangesButton">
+              Сохранить изменения
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="indexBootstrap.js"></script>
+  </body>
+</html>

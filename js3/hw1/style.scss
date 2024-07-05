@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: grey;
+}
+.schedule {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: center;
+  display: flex;
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(
+      3,
+      1fr
+    ); /* Создает три столбца равной ширины */
+    gap: 15px; /* Промежуток между ячейками (необязательно, можно не использовать) */
+    grid-row-gap: 30px; /* Промежуток между двумя рядами, в два раза больше */
+  }
+  &__title {
+    width: 360px;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    border: 3px solid blue;
+  }
+}
+.card {
+  width: 360px;
+  border: 1px solid black;
+  &__buttons {
+  }
+  &__info {
+  }
+}
+.grid {
+  &__card {
+  }
+}
+.info {
+  &__availableSpots {
+  }
+  &__currentParticipants {
+  }
+  &__id {
+  }
+  &__maxParticipants {
+  }
+  &__name {
+  }
+  &__time {
+  }
+}
+
+.buttons {
+  &__refuse {
+    background-color: red;
+    &--block {
+      background-color: gray;
+      color: darkgray;
+      cursor: not-allowed;
+      pointer-events: none;
+      opacity: 0.6;
+    }
+  }
+
+  &__signUp {
+    background-color: aqua;
+    &--block {
+      background-color: gray;
+      color: darkgray;
+      cursor: not-allowed;
+      pointer-events: none;
+      opacity: 0.6;
+    }
+  }
+}
