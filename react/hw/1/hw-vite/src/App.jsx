@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Message from './components/Message/Message-script.jsx'
+import Todolist from './components/TodoList/TodoList.jsx'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -21,13 +22,14 @@ function App() {
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
-        <Message
+        {/* <Message
           sender="Дмитрий К."
           recipient="Ревьюеру"
           title="Очень важный заголовок"
 
           text="тут могла быть ваша реклама"
-        />
+        /> */}
+        <Todolist/>
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more

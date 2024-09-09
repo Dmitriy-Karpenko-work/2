@@ -1,10 +1,10 @@
  import "./Message-style.css";
 
 function Message({ title, text, sender, recipient }) {
-  const MessagePropsTitle = String(title)
-  const MessagePropsText= String(text)
-  const MessagePropsSender= String(sender)
-  const MessagePropsRecipient= String(recipient)
+  const MessagePropsTitle = title
+  const MessagePropsText= text
+  const MessagePropsSender= sender
+  const MessagePropsRecipient= recipient
 
 
   return (
