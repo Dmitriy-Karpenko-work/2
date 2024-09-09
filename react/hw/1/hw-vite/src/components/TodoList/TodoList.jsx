@@ -14,7 +14,7 @@ function Todolist() {
 
     // Добавляем новое дело в arr и
     const id = crypto.randomUUID(); 
-    // console.log(`Добавляем задачу: "${inputValue}" с ID:`, id);
+     console.log(`Добавляем задачу: "${inputValue}" с ID:`, id);
     
     const newArr = [...todoArr, { inputValue, id }];
     setTodoArr(newArr);
@@ -23,7 +23,7 @@ function Todolist() {
   };
   // Удаление задачи из списка
   const DeleteTodo = (id) => {
-    console.log("Удаляем задачу с ID:", id);
+    console.log(`"Удаляем задачу" с ID:", ${id}`);
     const filteredArr = todoArr.filter((todo) => todo.id !== id);
     setTodoArr(filteredArr);
   };
